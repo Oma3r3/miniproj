@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP</title>
+</head>
+
+<style>
+    body {
+        width: 100%;
+        height: 100%;
+        background-image: url("https://th.bing.com/th/id/R.0f7e8dbfd3fd1b76a452920019a2435f?rik=kEhr%2bsNAZRyJNg&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f78%2f50%2fyMoABT.jpg&ehk=pbhGhcVS%2b%2bTp3p5ahSyrCDBjkI0Rjlfmk6B1BKG2pfw%3d&risl=&pid=ImgRaw&r=0");
+        background-repeat: repeat-y;
+        background-size: cover;
+        /* background-position: absolute; */
+    }
+    
+    h1 {
+        color: white;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .top {
+        /* border: 8px solid black; */
+        /* background-color: transparent; */
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+        width: 250px;
+        height: 250px;
+        display: block;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        margin-top: 80px;
+        /* opacity: 0.5; */
+    }
+    
+    .forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+    }
+    
+    .in {
+        margin: 20px 0px;
+    }
+    
+    .forms input {
+        border: 2px solid black;
+        text-decoration: none;
+        padding: 4px 8px;
+        border: none;
+        border-radius: 6px;
+        transition: 0.3s;
+    }
+    
+    .forms input:hover {
+        padding: 8px 8px;
+    }
+    
+    .btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn button {
+        border-radius: 6px;
+        color: black;
+        padding: 4px 4px;
+        width: 115px;
+        border: none;
+        transition: 0.2s;
+        margin: 3px;
+    }
+    
+    .btn a {
+        text-decoration: none;
+        color: white;
+        margin-top: 14px;
+    }
+    
+    .btn a:hover {
+        text-decoration: underline;
+    }
+    
+    .btn button:hover {
+        color: rgb(255, 252, 252);
+        background-color: rgb(55, 164, 55);
+    }
+</style>
+
+<body>
+    <div class="header">
+        <h1>PLEASE LOG IN OR SIGN UP TO CREATE AN ACCOUNT</h1>
+    </div>
+
+    <div class="top">
+
+        <div class="forms">
+            <div class="lgheading">
+                <h1>LOG IN</h1>
+            </div>
+            <form action="" method="post">
+                <div class="in">
+                    <input type="text" name="username" placeholder="username">
+                </div>
+                <div class="in">
+                    <input type="text" name="password" placeholder="password">
+                </div>
+
+                <div class="btn">
+                    <button type="submit" value="submit">SUBMIT</button>
+                    <a href="./signup">Click here to sign up</a>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
