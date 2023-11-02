@@ -107,6 +107,6 @@ app.post('/reservations', function(req, res) {
 
 // PORT = process.env.port;
 
-app.listen(3000, function() {
+app.listen(80, function() {
     console.log("app listening on port 3000 h");
 });
