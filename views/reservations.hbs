@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reservations</title>
+</head>
+
+<style>
+    
+    
+    [type="date"] {
+        background: #fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;
+    }
+    
+    [type="date"]::-webkit-inner-spin-button {
+        display: none;
+    }
+    
+    [type="date"]::-webkit-calendar-picker-indicator {
+        opacity: 0;
+    }
+    /* custom styles */
+    
+    body {
+        padding: 4em;
+        background: #e5e5e5;
+        font: 13px/1.4 Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    }
+    
+    label {
+        display: block;
+    }
+    
+    input {
+        border: 1px solid #c4c4c4;
+        border-radius: 5px;
+        background-color: #fff;
+        padding: 3px 5px;
+        box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+        width: 190px;
+    }
+    
+    form button {
+        border: 1px solid grey;
+        border-radius: 20px;
+    }
+
+    .card {
+  max-width: 300px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  max-width: 500px;
+  height: 300px;
+  padding: 35px;
+
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
+}
+
+.card-footer {
+  font-size: 0.65em;
+  color: #446;
+}
+
+
+</style>
+
+<body>
+    <h1>reservations</h1>
+
+    <div class="card">
+  <p>A glass-like card to demonstrate the <strong>Glassmorphism UI design</strong> trend.</p>
+  <p class="card-footer">Created by Rahul C.</p>
+</div>
+    
+
+    <h1>LIST OF RESERVATIONS</h1>
+    <label for="dateofbirth">Date Of Birth</label>
+    <form action="" method="post">
+        <input type="date" name="dateofbirth" id="dateofbirth">
+        <button type="submit" value="submit">SUBMIT</button>
+    </form>
+</body>
+
+</html>
